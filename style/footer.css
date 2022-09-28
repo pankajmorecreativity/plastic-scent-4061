@@ -1,0 +1,250 @@
+#footer{
+    font-family: sans-serif;
+    background-color: #fff
+}
+
+
+#subscribe-part {
+    width: 100%;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: rgb(218, 213, 213);
+}
+
+#fashion {
+    font-size: 23.999px;
+    margin: 0 auto;
+    padding: 50px 12px 10px;
+    text-align: center;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    letter-spacing: 3px;
+    background-color: 0% 0%;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.input-part {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: none;
+    letter-spacing: 3px;
+    background-color: 0% 0%;
+}
+
+.input-part>input,
+button {
+    padding: 12px;
+    font-size: medium;
+    border: none;
+}
+
+.input-part>input {
+    width: 73%;
+    background-color: #fff;
+    padding: 14px;
+    transform: none;
+    outline: rgb(255, 0, 0);
+}
+
+.input-part>input:hover {
+    border: none;
+}
+
+.input-part>button {
+    width: 22%;
+    border: none;
+    color: whitesmoke;
+    font-weight: 1000;
+    background-color: #000;
+    float: right;
+    cursor: pointer;
+}
+
+#lecture {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+.lecture-headline-1 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    line-height: 16.1px;
+    font-family: sans-serif;
+    margin-top: 45px;
+    /* width: 1230px; */
+}
+
+#lecture>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.0001px;
+    text-align: none solid rgb(101, 101, 101);
+    letter-spacing: 0.3px;
+    line-height: 20.4001px;
+    color: gray;
+
+}
+#lecture>h1 {
+    font-size: 18.6px;
+    color: #656565;
+    letter-spacing: 0.3px;
+    line-height: 36.0006px;
+    font-family: sans-serif;
+    /* width: 1230px; */
+}
+.wfc {
+    display: block;
+
+    font-size: 18px;
+    line-height: 20.7px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 0;
+    text-align: center;
+}
+.wfc>a {
+    color: #000;
+    width: 315.412px;
+    text-decoration: none;
+    line-height: 16.1px;
+    display: inline-block;
+    letter-spacing: 0.3px;
+    padding: 30px 0px 35px 0px;
+    margin: auto -50px auto -50px;
+}
+.wfc>a>h1{
+    font-size: 14px;
+}
+.wfc>a:hover {
+    color: #ff3399;
+    width: 315.412px;
+    text-decoration: none;
+}
+
+#logo {   
+    align-items: center;
+}
+#logo>div{
+    width: 20%;   
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+}
+#logo>div>div {
+    width: 8%;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+}
+#logo>div>div>a>img{
+    width: 100%;
+    cursor: pointer;
+}
+#logo>div>div>a>img:hover{
+    color: #ff3399;
+}
+#privacy-policy{
+    width: 40%;
+    margin: auto;
+    display: block;
+    font-size: 18.1px;
+    /* margin: 30px 509px 30px 509px; */
+}
+#privacy-policy>div{
+    margin: auto;
+}
+#privacy-policy>div>div{
+    display: inline-block;
+    text-align: center;
+    font-size: 12.0001px;
+    padding: 0 6px 0 10px;
+}
+#privacy-policy>div>div>a{
+    text-decoration: none;
+    color: #000;
+}
+#privacy-policy>div>div>a:hover{
+    color:#ff3399;
+}
+#privacy-policy>div>div:nth-child(1){
+    margin-left: 23%;
+}
+
+#privacy-policy>div>div:nth-child(2){
+    border: 1px solid #000;
+    border-top: none;
+    border-bottom: none;
+    padding: auto 8px auto 8px;
+}
+#list{
+    margin: auto;
+    width: 80%;
+}
+#brands, #other-category,#makeup,#my-sephora,#skin-care{
+    margin: auto;
+    font-size: 18.1px;    
+}
+#brands>h1,#makeup>h1,#my-sephora>h1,#other-category>h1,#skin-care>h1 {
+    text-align: center;
+    font-size: 14.001px;
+}
+#brands-list, #my-sephora-list,#makeup-list,#other-category-list,#skin-care-list{
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    /* padding-left: 40px; */
+    text-align: center;
+    letter-spacing: 0.3px;
+    margin-bottom: 30px;
+}
+#brands-list>div,  #my-sephora-list>div,#makeup-list>div,#other-category-list>div, #skin-care-list>div{
+    border: 1px solid #000;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    font-size: 18px;
+    text-align: center;
+    position:relative;
+    line-height: 20.7px;
+}
+#brands-list>div>a,  #my-sephora-list>div>a,#makeup-list>div>a,#other-category-list>div>a, #skin-care-list>div>a{
+    text-decoration: none;
+    color: gray;
+    letter-spacing: 00.3px;
+    font-weight: 20px;
+    line-height: 30px;
+    font-size: 14px;
+}
+#brands-list>div>a:hover{
+    color:#ff3399;
+}
+#my-sephora-list>div>a:hover{
+    color: #ff3399;
+}
+#makeup-list>div>a:hover{
+    color: #ff3399;
+}
+#skin-care-list>div>a:hover{
+    color: #ff3399;
+}
+
+#other-category-list>div>a:hover{
+    color: #ff3399;
+}
+
+/* From there this is using of media query */
+
+@media screen and (max-width:800px) {
+    #privacy-policy>div>div{
+        font-size: 8px;        
+    }
+}
