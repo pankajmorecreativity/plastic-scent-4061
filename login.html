@@ -49,6 +49,9 @@
         #or>p{
             margin-top: -0.3%;
         }
+        #new>a{
+            margin-left: 0%;
+        }
     </style>
 </head>
 <body>
@@ -62,12 +65,23 @@
     <form>
         <input id="username" type="text" placeholder="Enter username" required/>
         <input id="password" type="password" placeholder="Enter password" required/>
-        <input id="continue" type="submit" value="Continue">
+        <!-- <input id="continue" type="submit" value="Continue"> -->
     </form>
-    <!-- <div id="or">
+    <button id="continue" onclick="Login()">Continue</button>
+    <div id="or">
         <div><hr></div>
         <p>Or</p>
         <div><hr></div>
-    </div> -->
+    </div>
+
+
+    <div id="new">
+        <p>New user, signup here</p>
+        <a href="signup.html">SignUp</a>
+    </div>
+    
+    
+
 </body>
 </html>
+<script src="./scripts/login.js"></script>
