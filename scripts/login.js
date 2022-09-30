@@ -64,3 +64,13 @@ const Login = () => {
     }
 
 }
+
+let google = document.getElementById('google');
+google.addEventListener('click',function(){
+    window.location.href="https://accounts.google.com/signin";
+});
+
+let facebook = document.getElementById('facebook');
+facebook.addEventListener('click',function(){
+    window.location.href="https://www.facebook.com/login/";
+});
