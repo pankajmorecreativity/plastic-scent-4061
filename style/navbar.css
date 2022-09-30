@@ -68,6 +68,7 @@
   /* border: 1px solid green; */
   height: 50px;
 }
+
 #list {
   display: flex;
   list-style: none;
@@ -130,5 +131,75 @@
 #lower_navbar #list > li:hover .skin_care {
   position: absolute;
   display: flex;
+  align-items: flex-start;
+}
+
+.fragrance {
+  display: none;
+}
+
+.fragrance li {
+  list-style: none;
+  margin-top: 15px;
+  margin-bottom: -15px;
+  padding: 10px;
+  align-items: flex-start;
+  cursor: pointer;
+}
+#lower_navbar #list > li:hover .fragrance {
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+}
+
+.hair {
+  display: none;
+}
+.hair li {
+  list-style: none;
+  margin-top: 15px;
+  margin-bottom: -15px;
+  padding: 10px;
+  align-items: flex-start;
+  cursor: pointer;
+}
+#lower_navbar #list > li:hover .hair {
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+}
+
+.tools_brushes {
+  display: none;
+}
+
+.tools_brushes li {
+  list-style: none;
+  margin-top: 15px;
+  margin-bottom: -15px;
+  padding: 10px;
+  align-items: flex-start;
+  cursor: pointer;
+}
+#lower_navbar #list > li:hover .tools_brushes {
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+}
+.brand {
+  display: none;
+}
+.brand li {
+  list-style: none;
+  display: table;
+  margin-top: 15px;
+  margin-bottom: -15px;
+  padding: 10px;
+  align-items: flex-start;
+  cursor: pointer;
+}
+#lower_navbar #list > li:hover .brand {
+  display: flex;
+  position: absolute;
   align-items: flex-start;
 }
