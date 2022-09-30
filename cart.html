@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            NNNOW.com Discover and Shop Latest Fashion and Clothes Online.
+        </title>
+        <link
+            rel="icon"
+            href="https://static.nnnow.com/client/assets/images/nnnow-logo-200.png"
+        />
+        <link rel="stylesheet" href="./styles/cart.css" />
+    </head>
+    <body>
+        <nav id="cart_nav">
+            <a href="index.html">
+                <img
+                    src="https://cdn07.nnnow.com/web-images/master/navtree_metaData/59b2657be4b0e6b6e16a9180/1548053082431/se.png"
+                    alt="Sephora.NNNow.com"
+                />
+            </a>
+        </nav>
+        <div id="header">
+            <h2>MY BAG</h2>
+        </div>
+        <div id="cart_body">
+            <div id="items">
+                <div id="empty">
+                    <img
+                        src="https://static.nnnow.com/client/assets/images/checkout-final-02.png"
+                    />
+                    <h2>That's one really empty bag....</h2>
+                    <a href="index.html"><button>SHOP NOW</button></a>
+                </div>
+            </div>
+            <div id="total">
+                <div id="promoCode">
+                    <img
+                        src="https://static.nnnow.com/client/assets/images/promotions/icon_promo.png"
+                    />
+                    <p>APPLY PROMO CODE</p>
+                </div>
+                <div id="overView">
+                    <div>
+                        <h3>OVERVIEW</h3>
+                    </div>
+                    <div>
+                        <p>Subtotal</p>
+                        <p id="price">0</p>
+                    </div>
+                    <div id="discount">
+                        <p>Discount</p>
+                        <p id="disct">-0</p>
+                    </div>
+                    <div>
+                        <p>GST</p>
+                        <p id="gst">0</p>
+                    </div>
+                    <div>
+                        <p>Delivery Charges ⓘ</p>
+                        <p id="dc">0</p>
+                    </div>
+                    <hr />
+                    <div>
+                        <h3>TOTAL</h3>
+                        <h3 id="ttl">0</h3>
+                    </div>
+                </div>
+                <button onclick="checkOut()">CHECKOUT</button>
+                <div id="shopMore"><a href="index.html">SHOP MORE</a></div>
+                <div id="ads">
+                    <img
+                        src="	https://static.nnnow.com/mybag_offer_banner.jpg"
+                        alt="SBI Yono Offer"
+                    />
+                </div>
+            </div>
+        </div>
+       <script src="./scripts/cart.js" type="module"></script>
+    </body>
+</html>

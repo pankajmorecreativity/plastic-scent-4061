@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width:25%;
+            margin: auto;
+            padding: 40px;
+            /* border: 2px solid red; */
+        }
+        body>div>h1{
+            margin-bottom: -7%;;
+        }
+        #heading{
+            text-align: center;
+        }
+        #register-form{
+            padding-top: 10%;
+        }
+        form>div>input{
+            width:100%;
+            height:30px;
+        
+        }
+        #continue{
+            margin-top: 30px;
+            width:102%;
+            height:40px;
+            font-size: 25px;
+            background-color: rgb(184, 80, 97);
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div> 
+        <a href="login.html"><button type="button" style="color:rgb(204, 126, 139); font-size:15px" ><</button></a>
+    </div>
+    <div id="heading">
+        <h1>CREATE</h1>
+        <h1>ACCOUNT</h1>
+    </div>
+    <div id="register-form">
+        <form>
+            <div>
+                <p>Enter your name</p>
+                <input type="text" id="name" />
+            </div>
+            <div>
+                <p>Enter your email</p>
+                <input type="email" id="email" />
+            </div>
+            <div>
+                <p>Enter your password</p>
+                <input type="password" id="password" />
+            </div>
+            <div>
+                <p>Enter your username</p>
+                <input type="text" id="username" />
+            </div>
+            <div>
+                <p>Enter your mobile number</p>
+                <input type="number" id="mobile" />
+            </div>
+        </form>
+        <button id="continue" onclick="Register()">Continue</button>
+    </div>
+</body>
+</html>
+<script src="./scripts/signup.js"></script>
