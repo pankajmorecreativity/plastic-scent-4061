@@ -1,5 +1,11 @@
-function footer(){
-    return `
+function footer() {
+  return `
+    <div id="mybtn_div">
+    <p>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><img
+                src="https://cdn-icons-png.flaticon.com/512/130/130906.png" alt=""> BACK TO TOP</button>
+    </p>
+</div>
     <div id="subscribe-part">
     <h2 id="fashion">GET THE LATEST NEWS & OFFERS IN BEAUTY & FASHION</h2>
     <form action="">
@@ -309,9 +315,7 @@ function footer(){
 </div>
     
     
-    `
+    `;
 }
-
-
 
 export default footer;
