@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+#slideshow, #container {
+  max-width: 80%;
+  position: relative;
+  margin: auto;
+  
+}
+#slideshow{
+  margin-top: 200px;
+}
+#container{
+  margin-top:-180px;
+  margin-bottom: 20px;
+}
+#container>img{
+  width: 100%;
+  cursor: pointer;
+}
+#slideshow>img{
+  width: 100%;
+  cursor: pointer;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 2px 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 200px;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* bottom-div */
+#bottom-div{
+  width: 80%;
+  /* border: 1px solid red; */
+  margin: auto;
+  margin-top: -170px;
+}
+#offers{
+  width: 100%;
+  margin: auto;
+}
+#offers>img{
+  width: 100%;
+}
+
+#bottom-bottom-div{
+  margin: auto;
+  display:grid ;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+}
+#bottom-bottom-div>div>a>img{
+  width: 100%;
+}
