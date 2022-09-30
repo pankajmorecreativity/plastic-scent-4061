@@ -1,0 +1,84 @@
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy NNNOW | Checkout</title>
+    <link
+            rel="icon"
+            href="https://static.nnnow.com/client/assets/images/nnnow-logo-200.png"
+        />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./styles/checkout.css">
+    <link rel="stylesheet" href="font-family.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <style>
+
+    </style>
+</head>
+<body>
+    <nav id="cart_nav">
+        <a href="index.html">
+            <img
+                src="https://cdn07.nnnow.com/web-images/master/navtree_metaData/59b2657be4b0e6b6e16a9180/1548053082431/se.png"
+                alt="Sephora.NNNow.com"
+            />
+        </a>
+    </nav>
+
+  <div>
+    <div id = "Wasm_flex">
+        <div> <h1 id="title">Checkout</h1></div>
+        <div><h1 id="deep" >Total Payable </h1</div>
+    </div>
+  </div>
+
+    <div id="flexcon">
+        <div>
+            <div id="container">
+                <div id="left">
+                    <h3>Add Address</h3>
+                    <form id="add">
+                        <input class="adrs" id="pin" type="text" placeholder="Enter Your Pincode"><br><br>
+                        <input class="adrs" id="city" type="text" placeholder="City/district*"><br><br>
+                        <input class="adrs" id="state" type="text" placeholder="State*"><br><br>
+                        <select id="rad">
+                            <option value="">Landmark</option>
+
+                        </select>
+                    </form>
+                    <br><br><br><br>
+                    <form>
+                        <input type="radio" name="Home" value="">Home
+                        <input id="radio" type="radio" name="Home" value="">Office
+                        <br><br><br>
+                        <input type="radio" name="Make this default address" value="">Make this default address
+                    </form>
+                </div>
+                <div id="right">
+                    <div id="clear">
+                        <button id="all"> Clear all</button>
+                    </div>
+                    <form id="names">
+                        <input class="nms" type="text" placeholder="First Name*">
+                        <input class="nms" type="text" placeholder="Last Name*"><br><br><br>
+                        <input id="Area" type="textArea" placeholder="Address*">
+                        <h4 id="limit">Character Limit : 120<br>
+                            Special characters allowed are - # & ( ) ' ' . , \ / + _</h4>
+                        <input class="adrs" type="number" placeholder="Phone number*">
+                    </form>
+                    <br><br><br><br><br><br><br>
+                    <button id="red">Cancel</button>
+                    <button id="Save">
+                        Save & Continue
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+</body>
+</html>
