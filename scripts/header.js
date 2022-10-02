@@ -48,3 +48,15 @@ async function perfume() {
 function carto() {
     location.href = "cart.html";
 }
+
+function setusername()
+{
+    let data=JSON.parse(localStorage.getItem('store'));
+    console.log(data);
+    if(data.length!=0)
+    {
+        // document.querySelector("#xyz").innerHTML="";
+        document.querySelector("#xyz").innerHTML=data[0];
+    }
+}
+setusername();

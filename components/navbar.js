@@ -187,10 +187,13 @@ function navbar() {
                           |
                           &nbsp;
                           &nbsp;
-                          <a href="login.html"><i class="fa-solid fa-user" onclick="loginOn()"></i></a>
-                          &nbsp;
-                          &nbsp;
+                        
+                            <a href="login.html"><i class="fa-solid fa-user" onclick="loginOn()"></i></a>
+                            &nbsp;
+                            &nbsp;
                           <span onclick="loginOn()">LOGIN</span>
+                          
+                          
                       </div>
                   </div>
               </div>

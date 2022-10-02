@@ -38,8 +38,7 @@
 //     let data = await res.json();
 //     console.log('data:',data);
 // }
-
-
+let arr1=[];
 const Login = () => {
 
     let username=document.getElementById('username').value;
@@ -53,6 +52,10 @@ const Login = () => {
         if(elem.username==username&&elem.password==password)
         {
             flag=true;
+            //console.log(document.querySelector("#login_text").innerHTML);
+            //document.querySelector("#loginId").innerHTML=username;
+            arr1.push(username);
+            localStorage.setItem("store",JSON.stringify(arr1));
             alert("Login successful");
             window.location.href="index.html";
         }

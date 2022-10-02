@@ -5,10 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+            rel="icon"
+            href="https://static.nnnow.com/client/assets/images/nnnow-logo-200.png"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
     <link rel="stylesheet" href="./styles/footer.css">
-    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./styles/header.css" />
+    <!-- <link rel="stylesheet" href="./style/navbar.css"> -->
     <style>
         #one{
+            margin-top: 30px;
             text-align: center;
            
         }
@@ -19,6 +33,7 @@
             padding: 35px;
         }
         #two{
+            margin-top: 30px;
             display:grid;
             grid-template-columns: 20% 80%;
         }
@@ -28,6 +43,9 @@
         }
         #three>hr{
             margin:0% 10% 0% 25%;
+        }
+        #four{
+            margin-bottom: 30px;
         }
         #four>p{
             font-size: 18px;
@@ -202,7 +220,7 @@
 
         </div>
     </div>
-    <!-- <button id="btn" onclick="bt()">^ BACK TO TOP</button> -->
+    <button id="btn" onclick="bt()">^ BACK TO TOP</button>
     <div id="footer">
 
     </div>
@@ -215,8 +233,8 @@
     document.querySelector('#footer').innerHTML = footer();
     document.querySelector('#navbar').innerHTML = navbar();
     
-    // const bt = () =>{
-    //     document.documentElement.scrollTop = 0;
-    // }
+    const bt = () =>{
+        document.documentElement.scrollTop = 0;
+    }
 
 </script>
