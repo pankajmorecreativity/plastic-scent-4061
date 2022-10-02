@@ -187,7 +187,7 @@ function navbar() {
                           |
                           &nbsp;
                           &nbsp;
-                          <i class="fa-solid fa-user" onclick="loginOn()"></i>
+                          <a href="login.html"><i class="fa-solid fa-user" onclick="loginOn()"></i></a>
                           &nbsp;
                           &nbsp;
                           <span onclick="loginOn()">LOGIN</span>
@@ -197,7 +197,7 @@ function navbar() {
               <div class="nav3">
                   <div class="nav33">
                       <div class="b3">
-                          <a href="#">SALE</a>
+                          <a href="sell.html">SALE</a>
                           <div class="b33">
                           </div>
                       </div>
