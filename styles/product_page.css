@@ -1,0 +1,138 @@
+#contains {
+    display: flex;
+    flex-direction: row;
+}
+
+#co1 {
+    width: 25%;
+    margin-left: 3%;
+}
+
+#co2 {
+    width: 75%;
+}
+
+#sort {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+#sort1,
+#sort2 {
+    padding: 10px;
+}
+
+#second {
+    width: 85%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+}
+
+.product_img {
+    width: 100%;
+}
+
+.img1offer {
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+#offer1 {
+    display: inline-block;
+    color: red;
+    padding-left: 20px;
+    margin: 0%;
+    text-align: center;
+}
+
+#price1 {
+    margin: 0%;
+}
+
+#pict1 {
+    width: 90%;
+}
+
+#c1:active {
+    color: red;
+}
+
+p {
+    text-align: center;
+}
+#all1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#offersDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#poster {
+    width: 80%;
+    margin: 2% 10%;
+}
+#select {
+    /* width: 20px; */
+    height: 30px;
+    margin-top: -10px;
+}
+#co11 > h2 {
+    margin-bottom: 18px;
+    color: aliceblue;
+    background-color: black;
+    width: 70%;
+    padding: 10px;
+}
+#co11 > div {
+    /* margin-bottom: 5px; */
+    padding: 5px 10px;
+}
+.show {
+    width: 17%;
+    height: 100px;
+    background-color: turquoise;
+    position: absolute;
+    z-index: -1;
+    margin-top: -105px;
+}
+.shopnow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 25px;
+}
+.shopnow > img {
+    width: 20%;
+    height: 40%;
+}
+.shopnow > button {
+    border: none;
+    margin-top: 5px;
+    background-color: turquoise;
+    color: rgb(223, 228, 231);
+    font-weight: bold;
+    font-size: 15px;
+}
+#path {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: 3%;
+    font-size: 15px;
+    padding: 5px;
+    text-align: left;
+}
+#path > span {
+    color: #ec008c;
+}
+#pict1:hover .show {
+    z-index: 1;
+}

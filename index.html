@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sephora India's Official Online Store - My Beauty Power</title>
+        <link
+            rel="icon"
+            href="https://static.nnnow.com/client/assets/images/nnnow-logo-200.png"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./styles/footer.css" />
+        <link rel="stylesheet" href="./styles/header.css" />
+        <link rel="stylesheet" href="./styles/home.css" />
+        <script type="module">
+            let nav = document.getElementById("nav");
+    
+            import navbar from "./components/navbar.js";
+            nav.innerHTML = navbar();
+    
+            let foot = document.getElementById("footer");
+            import footer from "./components/footer.js";
+            foot.innerHTML = footer();
+        </script>
+    </head>
+    <body>
+        <nav id="nav"></nav>
+        <div id="main-sliding-window">
+            <img
+                src="https://logan.nnnow.com/content/dam/nnnow-project/18-feb-2022/ABH_TopbannerDesktop_gif.gif"
+                alt="ABH TopbannerDesktop gif"
+                id="000"
+                class="slide"
+            />
+            <img
+                src="https://logan.nnnow.com/content/dam/nnnow-project/10-feb-2022/SmashboxTopbanner-DesktopGIF.gif"
+                alt="SmashboxTopbanner DesktopGIF"
+                id="001"
+                class="slide"
+            />
+            <img
+                src="https://logan.nnnow.com/content/dam/nnnow-project/24-feb-2022/Benefit_TopbannerDesktop.jpg"
+                alt="Benefit TopbannerDesktop"
+                id="002"
+                class="slide"
+            />
+            <img
+                src="https://logan.nnnow.com/content/dam/nnnow-project/2-mar-2022/Lancome_TopBannerDesktop_Get7mlGenefique.jpg"
+                alt="Lancome TopBannerDesktop Get7mlGenefique"
+                id="003"
+                class="slide"
+            />
+            <img
+                src="https://logan.nnnow.com/content/dam/nnnow-project/2-mar-2022/Sephora_ContentTopBanner_Tresses'n'TextureDesktop.jpg"
+                alt="Sephora ContentTopBanner Tresses'n'TextureDesktop"
+                id="004"
+                class="slide"
+            />
+        </div>
+
+        <div id="prev-next">
+            <img
+                id="prev"
+                src="https://cdn4.iconfinder.com/data/icons/basic-user-interface-elements/700/left-arrow-back-256.png"
+            />
+            <img
+                id="next"
+                src="https://cdn4.iconfinder.com/data/icons/basic-user-interface-elements/700/right-forward-arrow-256.png"
+            />
+        </div>
+
+        <div id="main-sliding-dot">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+        <div id="homepage-content">
+            <div class="img-boxes">
+                <img
+                    src="https://logan.nnnow.com/content/dam/nnnow-project/25-march-2021/25MAR21_SEPHORA_BP_DESK_Q1.jpg"
+                    alt="Steals & Deals"
+                />
+                <img
+                    src="https://logan.nnnow.com/content/dam/nnnow-project/25-march-2021/25MAR21_SEPHORA_BP_DESK_Q2.jpg"
+                    alt="Beaty minis under ₹999"
+                />
+                <img
+                    src="https://logan.nnnow.com/content/dam/nnnow-project/25-march-2021/25MAR21_SEPHORA_BP_DESK_Q3.jpg"
+                    alt="Everyday Essentials"
+                />
+                <img
+                    src="https://logan.nnnow.com/content/dam/nnnow-project/10-may-2021/25MAR21_SEPHORA_BP_DESK_Q4.jpg"
+                    alt="Trending Now"
+                />
+                <img
+                    src="https://logan.nnnow.com/content/dam/nnnow-project/25-march-2021/25MAR21_SEPHORA_BP_DESK_Q5.jpg"
+                    alt="Editor's Picks"
+                />
+                <img
+                    src="https://logan.nnnow.com/content/dam/nnnow-project/08-may-2021/7MAY21_SEPHORA_BP_Q6.jpg"
+                    alt="Top Fragrances"
+                />
+            </div>
+            <div id="SephoraBrandOfTheWeek">
+                <div class="heading">
+                    <img
+                        src="https://logan.nnnow.com/content/dam/nnnow-project/10-feb-2022/SephoraBrandoftheweektext3310x240.jpg"
+                        alt="#Sephora Brand Of The Week"
+                    />
+                </div>
+                <div class="banner">
+                    <img
+                        src="https://logan.nnnow.com/content/dam/nnnow-project/16-feb-2022/ABH_BrandoftheweekDesktop.jpg"
+                        alt="Anastasia Beverly Hills"
+                    />
+                </div>
+                <div class="desktop-viewall">
+                    <a id="view1" href="product_page.html">VIEW ALL ></a>
+                </div>
+                <div id="slide1" class="slide-products"></div>
+                <div id="back-forwrd1">
+                    <img
+                        id="back1"
+                        src="https://cdn4.iconfinder.com/data/icons/basic-user-interface-elements/700/left-arrow-back-256.png"
+                    />
+                    <img
+                        id="forwrd1"
+                        src="https://cdn4.iconfinder.com/data/icons/basic-user-interface-elements/700/right-forward-arrow-256.png"
+                    />
+                </div>
+                <div class="mobile-viewall"></div>
+            </div>
+            <div id="JustLanded">
+                <div class="heading">
+                    <img
+                        src="https://logan.nnnow.com/content/dam/nnnow-project/01-oct-2020/sephora/2OCT20_PREHEADER_1_DESK_1.jpg"
+                        alt="Just Landed"
+                    />
+                </div>
+                <div id="product-video">
+                    <div class="half-slide-products">
+                        <div class="desktop-viewall">
+                            <a id="view2" href="product_page.html"
+                                >VIEW ALL ></a
+                            >
+                        </div>
+                        <div id="slide2" class="products"></div>
+                        <div id="back-forwrd2">
+                            <img
+                                id="back2"
+                                src="https://cdn4.iconfinder.com/data/icons/basic-user-interface-elements/700/left-arrow-back-256.png"
+                            />
+                            <img
+                                id="forwrd2"
+                                src="https://cdn4.iconfinder.com/data/icons/basic-user-interface-elements/700/right-forward-arrow-256.png"
+                            />
+                        </div>
+                        <div class="mobile-viewall"></div>
+                    </div>
+                    <div class="video">
+                        <iframe
+                            class="iframe"
+                            src="https://youtube.com/embed/UvBQ4gXQE_I?controls=0"
+                            frameborder="0"
+                        ></iframe>
+                        <p>The latest addition to the NORVINA® Collection</p>
+                    </div>
+                </div>
+            </div>
+            <div id="SpringItOn">
+                <div class="heading">
+                    <h>Spring It On</h>
+                </div>
+                <div class="adds-box">
+                    <img
+                        src="https://logan.nnnow.com/content/dam/nnnow-project/21-feb-2022/se/ContentP-Story_SkinDrinks.jpg"
+                        alt="Skin Drinks"
+                    />
+                    <img
+                        src="	https://logan.nnnow.com/content/dam/nnnow-project/21-feb-2022/se/ContentP-Story_FlowerPower.jpg"
+                        alt="Flower Power"
+                    />
+                    <img
+                        src="	https://logan.nnnow.com/content/dam/nnnow-project/21-feb-2022/se/ContentP-Story_TickledPink.jpg"
+                        alt="Tickled Pink"
+                    />
+                </div>
+            </div>
+            <div id="EverythingOnSide">
+                <div class="heading">
+                    <img
+                        src="https://logan.nnnow.com/content/dam/nnnow-project/01-oct-2020/sephora/2OCT20_PREHEADER_3_DESK.jpg"
+                        alt="Everything On Side"
+                    />
+                </div>
+                <div class="desktop-viewall">
+                    <a id="view3" href="product_page.html">VIEW ALL ></a>
+                </div>
+                <div id="slide3" class="slide-products"></div>
+                <div id="back-forwrd3">
+                    <img
+                        id="back3"
+                        src="https://cdn4.iconfinder.com/data/icons/basic-user-interface-elements/700/left-arrow-back-256.png"
+                    />
+                    <img
+                        id="forwrd3"
+                        src="https://cdn4.iconfinder.com/data/icons/basic-user-interface-elements/700/right-forward-arrow-256.png"
+                    />
+                </div>
+                <div class="mobile-viewall"></div>
+            </div>
+            <div id="YourFavoriteBrands">
+                <div class="heading">
+                    <img
+                        src="https://logan.nnnow.com/content/dam/nnnow-project/01-oct-2020/sephora/2OCT20_PREHEADER_4_DESK.jpg"
+                        alt="Everything On Side"
+                    />
+                </div>
+                <div class="img-boxes">
+                    <img
+                        src="https://logan.nnnow.com/content/dam/nnnow-project/17-jan-2020/logo-dsk/scdsk.jpeg"
+                        alt="Sephora Collection"
+                    />
+                    <img
+                        src="https://logan.nnnow.com/content/dam/nnnow-project/11-oct-2021-/12OCT21-TILE-MUFE(1).jpg"
+                        alt="Make Up For Ever"
+                    />
+                    <img
+                        src="https://logan.nnnow.com/content/dam/nnnow-project/17-jan-2020/logo-dsk/bendsk.jpg"
+                        alt="Benefit"
+                    />
+                    <img
+                        src="https://logan.nnnow.com/content/dam/nnnow-project/05-jan-2022/TF_Logo(1).jpg"
+                        alt="Tom Ford"
+                    />
+                    <img
+                        src="https://logan.nnnow.com/content/dam/nnnow-project/03-jan-2022/se/Lancome_Logo(1).jpeg"
+                        alt="Lancome"
+                    />
+                    <img
+                        src="https://logan.nnnow.com/content/dam/nnnow-project/17-jan-2020/logo-dsk/HDdesk.jpg"
+                        alt="Huda Beauty"
+                    />
+                </div>
+            </div>
+            <div id="NewOnTheBlock">
+                <div class="heading">
+                    <img
+                        src="https://logan.nnnow.com/content/dam/nnnow-project/01-oct-2020/sephora/2OCT20_PREHEADER_5_DESK.jpg"
+                        alt="New On The Block"
+                    />
+                </div>
+                <div class="adds-box">
+                    <img
+                        src="https://logan.nnnow.com/content/dam/nnnow-project/22-feb-2022/OPINOTB.jpg"
+                        alt="OPIN OTB"
+                    />
+                    <img
+                        src="https://logan.nnnow.com/content/dam/nnnow-project/09-jan-2022/JuicebeautyNOTB.jpg"
+                        alt="Juice Beauty NOTB"
+                    />
+                    <img
+                        src="https://logan.nnnow.com/content/dam/nnnow-project/16-feb-2022/Kora_NOTB.jpg"
+                        alt="Kora NOTB"
+                    />
+                    <img
+                        src="https://logan.nnnow.com/content/dam/nnnow-project/o1-feb-2022/AbhatiNOTB.jpg"
+                        alt="AbhatiNOTB"
+                    />
+                    <img
+                        src="https://logan.nnnow.com/content/dam/nnnow-project/o1-feb-2022/WishfulNOTB(1).jpg"
+                        alt="Wishful NOTB"
+                    />
+                    <img
+                        src="https://logan.nnnow.com/content/dam/nnnow-project/03-jan-2022/se/SCNOTB.jpg"
+                        alt="SC NOTB"
+                    />
+                </div>
+            </div>
+            <div id="SephoraDiaries">
+                <div class="heading">
+                    <img
+                        src="https://logan.nnnow.com/content/dam/nnnow-project/01-oct-2020/sephora/2OCT20_PREHEADER_7_DESK.jpg"
+                        alt="#Sephora Diaries"
+                    />
+                </div>
+                <div class="adds-box">
+                    <div class="box">
+                        <img
+                            src="https://logan.nnnow.com/content/dam/nnnow-project/07-june-2021/SEPHORA_BP_SEPH-DIARIES_COVER.jpg"
+                            alt="SEPHORA BP SEPH DIARIES COVER"
+                        />
+                        <h>TOP 5 MAC FAVOURITES</h>
+                        <p>With some hacks you'll love</p>
+                    </div>
+                    <div class="box">
+                        <img
+                            src="https://logan.nnnow.com/content/dam/nnnow-project/24dec19/23DEC19_BLOG3.jpg"
+                            alt="23DEC19 BLOG3"
+                        />
+                        <h>7 MASKS</h>
+                        <p>that'll save your skin</p>
+                    </div>
+                    <div class="box">
+                        <img
+                            src="https://logan.nnnow.com/content/dam/nnnow-project/24dec19/23DEC19_BLOG4.jpg"
+                            alt="23DEC19 BLOG4"
+                        />
+                        <h>LONG LASTING MAKEUP?</h>
+                        <p>Here's how!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </body>
+    
+    <script type="module" src="./scripts/home.js"></script>
+    <script src="./scripts/header.js"></script>
+</html>
