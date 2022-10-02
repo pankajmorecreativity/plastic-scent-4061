@@ -7,4 +7,6 @@ CONSTRUCT WEEK PROJECT - JS201
   Member3   -   Manish Kumar Nirala.
   Member4   -   Trilochanprasad B Hilli.
   
-  Project Web - http://sephora.nnnow.com/
+  Project Website - http://sephora.nnnow.com/
+  Netlify Link/Clone website - https://elaborate-pika-b9b4c8.netlify.app/
+  Project Presentation - https://drive.google.com/file/d/14xRfQPId20_ZWu_RH0yL7HKDOziL2RNC/view
