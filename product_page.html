@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title id="title"></title>
+        <link
+            rel="icon"
+            href="https://static.nnnow.com/client/assets/images/nnnow-logo-200.png"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./styles/footer.css" />
+        <link rel="stylesheet" href="./styles/header.css" />
+        <link rel="stylesheet" href="./styles/product_page.css" />
+        <script type="module">
+            let nav = document.getElementById("nav");
+        
+            import navbar from "./components/navbar.js";
+            nav.innerHTML = navbar();
+        
+            let foot = document.getElementById("footer");
+            import footer from "./components/footer.js";
+            foot.innerHTML = footer();
+        
+        </script>
+    </head>
+    <body>
+        <nav id="nav"></nav>
+        <div">
+            <img 
+            id="poster"
+            src="" alt="" />
+        </div>
+        <p id="path"></p>
+        <div id="contains">
+            <div id="co1">
+                <div id="co11">
+                    <h2>BRAND</h2>
+                    <div>
+                         <input id="c1" type="checkbox" name="opt" value="" onchange="filter()" /> 
+                            <label id="d1" for="Foundation"></label>
+                    </div>
+                    <div>
+                        
+                            <input id="c2" type="checkbox" name="opt" value="" onchange="filter()" />
+                            <label id="d2" for="Foundation"></a></label
+                        >
+                    </div>
+                    <div><input
+                                id="c3"
+                                type="checkbox"
+                                name=""
+                            />
+                            <label for="Foundation"> WISHFUL</label>
+                        
+                    </div>
+                    <div>
+                            <input id="c3" type="checkbox" name="" />
+                            <label for="Foundation"> GALLINEE</label>
+                    </div>
+                    <div><input
+                                id="c3"
+                                type="checkbox"
+                                name=""
+                            />
+                            <label for="Foundation"> JUICE BEAUTY</label>
+                    </div>
+                    <div>
+                            <input id="c3" type="checkbox" name="" />
+                            <label for="Foundation"> DAVIDOFF</label
+                        >
+                    </div>
+                    <div>
+                            <input id="c3" type="checkbox" name="" />
+                            <label for="Foundation"> CHOPARD</label
+                        >
+                    </div>
+                    <div>
+                            <input id="c3" type="checkbox" name="" />
+                            <label for="Foundation"> DEAR DAHLIA</label
+                        >
+                    </div>
+                </div>
+                <div id="co12"></div>
+            </div>
+
+            <div id="co2">
+                <div id="sort">
+                    <div id="sort1">SORT</div>
+                    <div id="sort2">
+                        <select id="select" onChange="sort()">
+                            <option value="#">Popularity</option>
+                            <option value="LH">Price: Low to High</option>
+                            <option value="HL">Price: High to Low</option>
+                        </select>
+                    </div>
+                </div>
+                <br />
+                <br /><br /><br />
+                <div id="second"></div>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </body>
+    <script src="./scripts/product_page.js"></script>
+<script src="./scripts/header.js"></script>
+</html>

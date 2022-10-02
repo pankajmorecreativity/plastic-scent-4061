@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.s1 {
+    position: relative;
+    width: 100%;
+}
+
+.s1 .nav1 {
+    position: relative;
+    width: 100%;
+    background: #f3f3f3;
+}
+
+.s1 .nav11,
+.s1 .nav22,
+.s1 .nav33 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding: 3px 0;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.s1 .left .fa-bars {
+    color: #1886bc;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.s1 .a1 {
+    color: #704280;
+    font-size: 14px;
+}
+
+.s1 .a2 {
+    color: #ffc001;
+    font-size: 14px;
+}
+
+.s1 .a3 {
+    color: #ec008c;
+    font-size: 14px;
+}
+
+.s1 .nav1 .left img {
+    height: 43px;
+}
+
+.s1 .nav1 .right,
+.s1 .nav1 .mid,
+.s1 .nav1 .left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.s1 .nav1 .right i,
+.s1 .left .fa-location-dot {
+    color: #ec008c;
+}
+
+.s1 .nav11 .left .sidebar {
+    border-right: 1px solid #000;
+    position: fixed;
+    /* display: none; */
+    width: 300px;
+    height: 100vh;
+    background: #fff;
+    left: 0;
+    top: 50px;
+    z-index: 11;
+}
+#sbar {
+    display: none;
+    background: rgb(255, 255, 255);
+    overflow-y: scroll;
+    padding-bottom: 200px;
+}
+
+.s1 .nav2 {
+    position: relative;
+    width: 100%;
+}
+
+.s1 .nav2 .left {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 210px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+}
+
+.s1 .nav2 .left i {
+    color: #ec008c;
+    margin-right: 10px;
+}
+
+.s1 .nav2 .left input {
+    border: none;
+    outline: none;
+}
+
+.s1 .nav2 .mid img {
+    height: 100px;
+    cursor: pointer;
+}
+
+.s1 .nav2 .right {
+    cursor: pointer;
+}
+
+.s1 .nav2 .right i {
+    color: #ec008c;
+}
+
+.s1 .nav3 {
+    position: relative;
+    width: auto;
+    background: #fff;
+}
+
+.s1 .nav33 {
+    justify-content: space-around;
+    background: #fff;
+}
+
+.s1 .nav33 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 6px 8px;
+}
+
+.s1 .nav33 a:hover {
+    color: #ec008c;
+    box-shadow: -1px -1px 5px rgb(163, 163, 163), 1px 1px 5px rgb(161, 161, 161);
+}
+.s1 .nav11 .left .sidebar .b2 .up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 15px;
+}
+.s1 .nav33 a:hover ~ .b33,
+.s1 .nav33 .b33:hover {
+    width: 100vw;
+    position: absolute;
+    display: block;
+    left: -153px;
+    background: #fff;
+    z-index: 10;
+}
+.s1 .nav33 .b33 {
+    display: none;
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+.s1 .nav33 .b333 {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.s1 .nav33 .b333 ul {
+    margin: 10px 40px;
+}
+.s1 .nav33 .b333 ul li {
+    list-style: none;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.s1 .nav33 .b333 ul li:hover {
+    color: #ec008c;
+    cursor: pointer;
+}
+.s1 .nav11 .sidebar .b23 {
+    display: none;
+}
+.s1 .nav11 .left .sidebar .b24 .right {
+    display: none;
+}
+.login {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: #4c4c4ccc;
+    z-index: 1111;
+}
+.login form {
+    position: absolute;
+    width: 380px;
+    height: 625px;
+    padding: 30px 20px;
+    background: #fff;
+}
+.login form .fa-xmark {
+    text-align: right;
+    font-size: 20px;
+    color: #ec008c;
+    cursor: pointer;
+}
+.login form h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.login form .nametext {
+    font-size: 12px;
+    color: grey;
+}
+.login form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ec008c;
+}
+.login form .continuebtn {
+    width: 100%;
+    padding: 10px;
+    margin: 22px 0;
+    background: #ec008c;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login form .ortext {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px 0;
+}
+.login form .ortext span {
+    width: 43%;
+    height: 2px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login form button {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0;
+    border: none;
+}
+.login form .gobtn {
+    background: #4285f4;
+}
+.login form .fbbtn {
+    background: #3b5998;
+}
+.login form button i {
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login form button p {
+    width: 80%;
+    color: #fff;
+    font-weight: bold;
+}
+.login form .lasttext {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.login p span {
+    color: #ec008c;
+    text-decoration: underline;
+}
+@media (max-width: 1250px) {
+    .s1 .nav11,
+    .s1 .nav22,
+    .s1 .nav33 {
+        width: 98%;
+    }
+}
+@media (max-width: 1000px) {
+    .s1 .nav1 .left {
+        margin-left: 50px;
+    }
+    .s1 .nav1 .right,
+    .s1 .nav1 .mid {
+        display: none;
+    }
+    .s1 .nav11 .sidebar .b23 {
+        display: block;
+    }
+    .s1 .nav11 .sidebar .right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .s1 .nav11 .sidebar .right div {
+        margin: 15px 13px;
+    }
+    .s1 .nav33 a:hover ~ .b33,
+    .s1 .nav33 .b33:hover {
+        left: 0;
+    }
+}
+@media (max-width: 860px) {
+    .s1 .nav33 {
+        width: 90%;
+        /* overflow-x: scroll; */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .s1 .nav33 {
+        width: 100%;
+    }
+    .s1 .nav3 .b3 {
+        padding: 10px;
+        font-size: 16px;
+    }
+    .s1 .nav3 .b3 a {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 730px) {
+    .s1 .nav11 .left .sidebar .b24 .right {
+        display: flex;
+        flex-direction: column;
+        margin: 15px 13px;
+    }
+    .s1 .nav22 {
+        justify-content: center;
+    }
+    .s1 .nav22 .left {
+        display: none;
+    }
+    .s1 .nav22 .mid img {
+        height: 80px;
+    }
+    .s1 .nav22 .right {
+        display: none;
+    }
+    .login form {
+        width: 100%;
+    }
+}
+@media (max-width: 560px) {
+    .s1 .nav11 .left .sidebar {
+        width: 100%;
+    }
+    .s1 .nav1 .left {
+        margin-left: 0;
+    }
+}
